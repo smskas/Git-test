@@ -12,7 +12,7 @@ public class Main2 {
 			mobiles.add(new Mobile(r.nextInt(9999999), "asdewqzxc"));
 		}
 		for(Mobile m: mobiles){
-			System.out.println(m.getNumber()+" "+m.getName());
+			System.out.println("Номер: "+m.getNumber()+""+"   "+m.getName()+" Names");
 		}
 	}
 }
